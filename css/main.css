@@ -179,7 +179,7 @@ header .container {
     font-size: 35px;
   }
   header .container .links .menu > li > a {
-    padding: 0 20px !important;
+    padding: 0 10px !important;
   }
 }
 header .container .logo a {
@@ -768,3 +768,51 @@ header .container .otherlinks .menu-two li a i::before {
   color: white !important;
 }
 /* End Features */
+/* Start Testimonials */
+.testimonials {
+  padding: 60px 0;
+  position: relative;
+  background-color: rgb(236, 236, 236);
+}
+.testimonials .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+}
+.testimonials .container .sections {
+  background-color: white;
+  position: relative;
+  padding: 20px;
+}
+.testimonials .container .sections img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  right: -15px;
+  top: -40px;
+  border: 10px solid rgb(236, 236, 236);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.testimonials .container .sections .context h2 {
+  font-size: 1.2em;
+  margin: 0 0 7px;
+}
+.testimonials .container .sections .context p {
+  font-size: 1em;
+  color: #777;
+  line-height: 1.4;
+  margin: 10px 0;
+  min-width: 300px;
+}
+.testimonials .container .sections .context p:last-of-type {
+  margin-bottom: 0;
+}
+.testimonials .container .sections .context .stars .fill {
+  color: #FFC107;
+  font-weight: bold;
+}
+/* End Testimonials */
